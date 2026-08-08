@@ -6,6 +6,11 @@ st.title("📄 Document question answering")
 st.write(
     "Upload a document below and ask a question about it – GPT will answer! "
     "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
+    "\n\n"
+    "یک سند را در زیر آپلود کنید و یک سؤال درباره آن بپرسید – GPT پاسخ خواهد داد! "
+    "برای استفاده از این برنامه، باید یک کلید API از OpenAI وارد کنید که می‌توانید آن را از [اینجا](https://platform.openai.com/account/api-keys) دریافت کنید."
+    "\n\n"
+    "توسعه دهنده(dianatofficial.ir)"
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
