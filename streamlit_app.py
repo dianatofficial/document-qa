@@ -5,8 +5,11 @@ from openai import OpenAI
 st.title("📄 Document question answering")
 st.write(
     "Upload a document below and ask a question about it – GPT will answer! "
+    "برای استفاده، یک سند را در پایین بارگذاری کنید و درباره آن سؤال بپرسید — GPT پاسخ خواهد داد! "
     "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
+    "برای استفاده از این اپ، باید کلید API اوپن‌ای‌آی خود را وارد کنید که می‌توانید آن را از [اینجا](https://platform.openai.com/account/api-keys) دریافت کنید."
 )
+st.caption("توسعه دهنده(dianatofficial.ir)")
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
